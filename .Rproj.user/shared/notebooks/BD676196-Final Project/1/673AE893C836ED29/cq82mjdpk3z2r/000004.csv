@@ -1,0 +1,2 @@
+"0","raw <- read.csv(""catanstats.csv"")"
+"0","dprob <- read.csv(""diceprob.csv"")"

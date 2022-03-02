@@ -1,0 +1,4 @@
+"0","# Assess Correlation between these factors"
+"0","temp <- raw[c(""production"", ""tradeVolume"", ""tribute"",""points"")]"
+"0","names(temp) <- c(""Total Production"", ""Trade Volume"", ""Tribute"", ""Points"")"
+"0","corrplot(cor(temp), type = ""upper"", method = ""pie"", tl.col = ""black"", tl.cex = 0.75,diag = FALSE)"

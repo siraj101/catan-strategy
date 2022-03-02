@@ -1,0 +1,6 @@
+"0","# General port alignment is based on the probability of the most likely resource
+data[""res_port_alignment""] <- data[""res_port_alignment""] + rowSums(data[""3G""]*rowMaxs(data[res_list]))
+"
+"2","Error in rowMaxs(data[res_list]) : 
+  Argument 'x' must be a matrix or a vector.
+"
